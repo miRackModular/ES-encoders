@@ -113,7 +113,7 @@ struct ModuleES5Widget : ModuleWidget
 		};
 		
 		menu->addChild(construct<MenuLabel>());
-		CategoriesItem *item = createMenuItem<CategoriesItem>( "Category" );
+		CategoriesItem *item = createMenuItem<CategoriesItem>( "Category", RIGHT_ARROW );
 		item->module = module;
 		menu->addChild(item);
 	}
